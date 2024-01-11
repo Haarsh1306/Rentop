@@ -1,1 +1,43 @@
-<p>graph works!</p>
+<div class="main">
+    <div class="table-content">
+        <div class="heading">
+            <h3>Department</h3>
+            <select id="dropdown">
+                <option value="option1">Bar Graph</option>
+                <option value="option2">Pie Chart</option>
+            </select>
+        </div>
+        <div class="table">
+            <p-table [value]="departmentDetails"  styleClass="p-datatable-sm">
+                <ng-template pTemplate="header">
+                    <tr>
+                        <th style="width: 60%">Name</th>
+                        <th style="width: 40%">Completion Percentage</th>
+                    </tr>
+                </ng-template>
+                <ng-template pTemplate="body" let-department>
+                    <tr>
+                        <td>{{ department.name }}</td>
+                        <td>{{ department.completionPercentage }}%</td>
+                    </tr>
+                </ng-template>
+            </p-table>
+            
+            
+        </div>
+
+    </div>
+
+    <div class="graph-content">
+        <div class="heading">
+            <h3>Department</h3>
+            <select id="dropdown">
+                <option value="option1">Percentage</option>
+                <option value="option2">Value</option>
+            </select>
+        </div>
+        <div class="graph" style="width: 600px;">
+                <canvas id="myChart"></canvas>
+        </div>
+    </div>
+</div>

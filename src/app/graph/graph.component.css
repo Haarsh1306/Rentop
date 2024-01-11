@@ -1,0 +1,40 @@
+.main{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    border: 2px #ccc solid;
+    padding: 10px 20px;
+}
+.table-content, .graph-content{
+    width: 50%;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading h3{
+    color: purple;
+}
+
+#dropdown {
+    width: 200px; 
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+#dropdown option {
+    background-color: #fff;
+    color: #333;
+}
+
+#dropdown option:hover {
+    background-color: #f0f0f0;
+}
