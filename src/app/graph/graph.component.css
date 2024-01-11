@@ -1,7 +1,9 @@
 
 .graph{
-    padding: 0px 10px;
-    margin: 2vw;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px #ccc solid;
 }
 .heading{
     display: flex;

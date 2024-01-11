@@ -10,6 +10,7 @@ import { DividerModule } from 'primeng/divider';
 import { GraphComponent } from './graph/graph.component';
 import { TableModule } from 'primeng/table';
 import { DropdownModule } from 'primeng/dropdown';
+import { NgChartsModule } from 'ng2-charts';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { DropdownModule } from 'primeng/dropdown';
     TabMenuModule,
     DividerModule,
     TableModule,
-    DropdownModule
+    DropdownModule,
+    NgChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

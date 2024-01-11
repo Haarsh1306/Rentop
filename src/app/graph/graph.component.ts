@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ChartDataset, ChartOptions } from 'chart.js';
 
 @Component({
   selector: 'app-graph',
@@ -18,5 +19,7 @@ export class GraphComponent {
 
   graphs: any[] = [{ name: "Bar Chart" }, {name: 'Pie Chart'}];
   
+
+
   
 }
