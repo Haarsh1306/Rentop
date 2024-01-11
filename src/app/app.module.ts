@@ -13,6 +13,7 @@ import { DropdownModule } from 'primeng/dropdown';
 import { ChartModule } from 'primeng/chart';
 // import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { GraphComponent } from './graph/graph.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     NavBarComponent,
     MainComponent,
+    GraphComponent,
     
 
   ],
