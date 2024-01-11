@@ -1,0 +1,27 @@
+<div class="main">
+    <div class="heading">
+        <h1>Coorporate Conflict of Interest</h1>
+    </div>
+    <div class="tab-menu">
+        <p-tabMenu [model]="items" [activeItem]="activeItem"></p-tabMenu>
+    </div>
+
+    <div class="container">
+        <div class="container-1">
+            <div class="data" *ngFor="let item of data1">
+                <i class="pi pi-user" style="font-size: 1.5rem"></i>
+                <h4>{{item.value}}</h4>
+                <p>{{item.para}}</p>
+            </div>
+        </div>
+        <div class="container-2">
+            <div class="data" *ngFor="let item of data2">
+                <i class="pi pi-user" style="font-size: 1.5rem"></i>
+                <h4>{{item.value}}</h4>
+                <p>{{item.para}}</p>
+            </div>
+        </div>
+    </div>
+
+    <app-graph></app-graph>
+</div>

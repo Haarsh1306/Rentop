@@ -1,0 +1,13 @@
+
+.graph{
+    padding: 0px 10px;
+    margin: 2vw;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heading h3{
+    color: purple;
+}

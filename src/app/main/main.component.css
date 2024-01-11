@@ -1,0 +1,58 @@
+.main{
+    margin-top: 60px;
+}
+.heading{
+    padding: 0px 10px;
+}
+.heading h1{
+    color: purple;
+    margin: 0;
+    padding: 0;
+}
+
+.tab-menu{
+    padding: 0px 10px;
+    margin-top: 2vw;
+}
+.container{
+    padding: 0px 10px;
+    display: flex;
+    gap: 20px;
+}
+.container h4{
+    color: purple;
+}
+.container-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 66vw;
+    border-radius: 10px;
+    padding: 0px 10px;
+    margin-top: 2vw;
+    background-color: beige;
+    
+}
+.container-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 34vw;
+    border-radius: 10px;
+    padding: 0px 10px;
+    margin-top: 2vw;
+    background-color: beige;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+  
+}
+.data h4, .data p{
+    margin: 0;
+    padding: 0;
+}

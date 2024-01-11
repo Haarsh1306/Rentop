@@ -1,0 +1,31 @@
+<div class="graph">
+    <div class="department-table">
+        <div class="heading">
+            <h3>Department</h3>
+            
+            <div class="card flex justify-content-center">
+                <p-dropdown [options]="graphs" optionLabel="name" [showClear]="true" placeholder="Select Graph"></p-dropdown>
+            </div>
+        </div>
+        <div class="table">
+            <p-table [value]="departmentDetails" >
+                <ng-template pTemplate="header">
+                  <tr>
+                    <th>Department</th>
+                    <th>Completion %</th>
+                  </tr>
+                </ng-template>
+                <ng-template pTemplate="body" let-departmentDetail let-i="rowIndex">
+                  <tr>
+                    <td>{{ departmentDetail.name }}</td>
+                    <td>{{ departmentDetail.completionPercentage }}</td>
+                  </tr>
+                </ng-template>
+              </p-table>
+        </div>
+          
+    </div>
+    <div class="department-graph">
+        
+    </div>
+</div>
