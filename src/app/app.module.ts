@@ -7,10 +7,12 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MainComponent } from './main/main.component';
 import { TabMenuModule } from 'primeng/tabmenu';
 import { DividerModule } from 'primeng/divider';
-import { GraphComponent } from './graph/graph.component';
+
 import { TableModule } from 'primeng/table';
 import { DropdownModule } from 'primeng/dropdown';
-import { NgChartsModule } from 'ng2-charts';
+import { ChartModule } from 'primeng/chart';
+// import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -18,7 +20,7 @@ import { NgChartsModule } from 'ng2-charts';
     AppComponent,
     NavBarComponent,
     MainComponent,
-    GraphComponent,
+    
 
   ],
   imports: [
@@ -28,7 +30,9 @@ import { NgChartsModule } from 'ng2-charts';
     DividerModule,
     TableModule,
     DropdownModule,
-    NgChartsModule
+    ChartModule,
+    FormsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
